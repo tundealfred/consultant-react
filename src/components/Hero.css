@@ -1,0 +1,39 @@
+/* src/components/Hero/Hero.css */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0070f3, #00d4ff);
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background: white;
+  color: #0070f3;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background: #0070f3;
+  color: white;
+}

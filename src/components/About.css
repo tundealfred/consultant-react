@@ -1,0 +1,21 @@
+/* src/components/About/About.css */
+#about {
+  padding: 4rem 2rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

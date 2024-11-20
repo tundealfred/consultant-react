@@ -1,0 +1,28 @@
+/* src/components/Testimonial/Testimonial.css */
+.testimonial {
+  padding: 4rem 2rem;
+  background: #f7f7f7;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.rating {
+  color: yellow;
+}
